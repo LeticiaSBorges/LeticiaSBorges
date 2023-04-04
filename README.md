@@ -27,10 +27,10 @@
       <img width="25" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/800px-LinkedIn_icon_circle.svg.png">
     </a>
     <a href = "https://www.instagram.com/leticia.borges.04/">
-      <img width="25" src="https://cdn-icons-png.flaticon.com/512/174/174855.png">
+      <img width="25" src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-instagram-social-platform-icon-png-image_6315976.png">
     </a>
     <a href = "https://twitter.com/leticia_borges4">
-      <img width="25" src="https://cdn.icon-icons.com/icons2/836/PNG/512/Twitter_icon-icons.com_66803.png">
+      <img width="25" src="https://cdn.icon-icons.com/icons2/729/PNG/512/twitter_icon-icons.com_62751.png">
     </a>
 </div>
 
