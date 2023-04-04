@@ -35,10 +35,12 @@
       <img width="25" src="instagram.png">
     </a>
 </div>
- ![Snake animation](https://github.com/LeticiaSBorges/LeticiaSBorges/blob/output/github-contribution-grid-snake.svg)
-  ![Snake animation](https://github.com/ellen2121/ellen2121/blob/output/github-contribution-grid-snake.svg)
- 
+
+![Snake animation](https://github.com/LuigiGF/LuigiGF/blob/output/github-contribution-grid-snake.svg)
+
 [![readme](https://github-readme-stats.vercel.app/api/pin/?username=LeticiaSBorges&repo=LeticiaSBorges&theme=react)](https://github.com/LeticiaSBorges/LeticiaSBorges)
+
+
 <!--
 **LeticiaSBorges/LeticiaSBorges** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
