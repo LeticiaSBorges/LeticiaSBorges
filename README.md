@@ -1,4 +1,4 @@
-### Hi there 👋
+### Olá Mundo, eu sou a Letícia 👋
 
 <div>
   
@@ -21,16 +21,16 @@
   
   <h1 align="center">Redes Sociais</h1>
     <a href = "mailto: leticiasousa.borges@gmail.com">
-      <img width="30" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/2560px-Gmail_icon_%282020%29.svg.png">
+      <img width="27" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/2560px-Gmail_icon_%282020%29.svg.png">
     </a>
     <a href = "https://www.linkedin.com/in/leticia-borges-a16b711a8/">
       <img width="25" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/800px-LinkedIn_icon_circle.svg.png">
     </a>
-    <a href = "https://www.youtube.com/channel/UCd5Ivcm28R1C3fCQKbOx2cg">
-      <img width="35" src="youtube.svg">
+    <a href = "https://www.instagram.com/leticia.borges.04/">
+      <img width="25" src="https://cdn-icons-png.flaticon.com/512/174/174855.png">
     </a>
-    <a href = "https://www.instagram.com/devparadev/">
-      <img width="25" src="instagram.png">
+    <a href = "https://twitter.com/leticia_borges4">
+      <img width="25" src="https://cdn.icon-icons.com/icons2/836/PNG/512/Twitter_icon-icons.com_66803.png">
     </a>
 </div>
 
@@ -40,6 +40,7 @@
 
 
 <!--
+### Hi there 👋
 **LeticiaSBorges/LeticiaSBorges** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
