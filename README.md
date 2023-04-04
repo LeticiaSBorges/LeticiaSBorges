@@ -21,10 +21,10 @@
   
   <h1 align="center">Redes Sociais</h1>
     <a href = "mailto: work.luigi.fonseca@gmail.com">
-      <img width="30" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/800px-LinkedIn_icon_circle.svg.png">
+      <img width="30" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/2560px-Gmail_icon_%282020%29.svg.png">
     </a>
-    <a href = "https://www.linkedin.com/in/luigi-gottardello-fonseca-44651a205/">
-      <img width="25" src="linkedin.svg">
+    <a href = "https://www.linkedin.com/in/leticia-borges-a16b711a8/">
+      <img width="25" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/800px-LinkedIn_icon_circle.svg.png">
     </a>
     <a href = "https://www.youtube.com/channel/UCd5Ivcm28R1C3fCQKbOx2cg">
       <img width="35" src="youtube.svg">
