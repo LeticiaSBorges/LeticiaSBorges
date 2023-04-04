@@ -20,7 +20,7 @@
     
   
   <h1 align="center">Redes Sociais</h1>
-    <a href = "mailto: work.luigi.fonseca@gmail.com">
+    <a href = "mailto: leticiasousa.borges@gmail.com">
       <img width="30" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/2560px-Gmail_icon_%282020%29.svg.png">
     </a>
     <a href = "https://www.linkedin.com/in/leticia-borges-a16b711a8/">
