@@ -36,7 +36,7 @@
     </a>
 </div>
 
-![Snake animation](https://github.com/LuigiGF/LuigiGF/blob/output/github-contribution-grid-snake.svg)
+![Snake animation](https://github.com/LeticiaSBorges/LeticiaSBorges/blob/output/github-contribution-grid-snake.svg)
 
 [![readme](https://github-readme-stats.vercel.app/api/pin/?username=LeticiaSBorges&repo=LeticiaSBorges&theme=react)](https://github.com/LeticiaSBorges/LeticiaSBorges)
 
