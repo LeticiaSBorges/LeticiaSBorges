@@ -1,56 +1,41 @@
-### Olá Mundo, eu sou a Letícia 👋
+name: Atualizar cobrinha e cards do perfil
 
-<div>
-  
-  <img  height="180em" src="https://github-readme-stats.vercel.app/api?username=LeticiaSBorges&show_icons=true&theme=great-gatsby&include_all_commits=true&count_private=true"/>
-  <img align="right" height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LeticiaSBorges&layout=compact&langs_count=16&theme=great-gatsby"/>
-</div>
-<br>
+on:
+  schedule:
+    - cron: "0 3 * * *"   # todo dia às 00:00 (horário de Brasília)
+  workflow_dispatch:       # permite rodar manualmente pela aba Actions
 
-<div  align="center"> 
-  <div style="display: inline_block"><br>
-    <img align="left" height="250" alt="coding-time" src="programing.gif">
-    <h1 align="center">Tecnologias Favoritas ❤</h1>
-    <img align="center" height="30" width="40" alt="r-icon"  src="https://marketplace-assets.digitalocean.com/logos/rstudio-20-04.svg">
-    <img align="center" height="30" width="40" alt="python-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/800px-Python.svg.png">
-    <img align="center" height="30" width="40" alt="PostgreSQL-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png">
-    <img align="center" height="30" width="40" alt="js-icon" src="https://logospng.org/download/javascript/logo-javascript-icon-1024.png">
-    <img align="center" height="30" width="40" alt="markdown-icon" src="https://macdown.uranusjr.com/static/images/logo.png">
-   </div>
-    
-  
-  <h1 align="center">Redes Sociais</h1>
-    <a href = "mailto: leticiasousa.borges@gmail.com">
-      <img width="27" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/2560px-Gmail_icon_%282020%29.svg.png">
-    </a>
-    <a href = "https://www.linkedin.com/in/leticia-borges-a16b711a8/">
-      <img width="25" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/800px-LinkedIn_icon_circle.svg.png">
-    </a>
-    <a href = "https://www.instagram.com/leticia.borges.04/">
-      <img width="25" src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-instagram-social-platform-icon-png-image_6315976.png">
-    </a>
-    <a href = "https://twitter.com/leticia_borges4">
-      <img width="25" src="https://cdn.icon-icons.com/icons2/729/PNG/512/twitter_icon-icons.com_62751.png">
-    </a>
-</div>
+permissions:
+  contents: write
 
-![Snake animation](https://github.com/LeticiaSBorges/LeticiaSBorges/blob/output/github-contribution-grid-snake.svg)
+jobs:
+  snake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Gerar a cobrinha
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-[![readme](https://github-readme-stats.vercel.app/api/pin/?username=LeticiaSBorges&repo=LeticiaSBorges&theme=react)](https://github.com/LeticiaSBorges/LeticiaSBorges)
+      - name: Publicar na branch output
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-
-<!--
-### Hi there 👋
-**LeticiaSBorges/LeticiaSBorges** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  cards:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Gerar cards de estatísticas
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
